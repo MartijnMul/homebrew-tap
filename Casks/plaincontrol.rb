@@ -1,6 +1,6 @@
 cask "plaincontrol" do
-  version "0.3.1"
-  sha256 "46483475a8bec46d61adec778f662f46637ae74cfcbbcc76c8de5e56e01eeab1"
+  version "0.4.0"
+  sha256 "88c361f33726e5485843e5ebb395d77a706da90fc072b873bf06c4001d154155"
 
   url "https://github.com/MartijnMul/plaincontrol/releases/download/v#{version}/Plaincontrol.dmg"
   name "Plaincontrol"
@@ -15,7 +15,7 @@ cask "plaincontrol" do
   # No `auto_updates true`, although the app updates itself through Sparkle: it does so only
   # when the user allows it, and with `auto_updates` `brew upgrade` would skip it, leaving
   # those who declined without updates.
-  depends_on macos: :golden_gate
+  depends_on macos: :tahoe
 
   app "Plaincontrol.app"
 
