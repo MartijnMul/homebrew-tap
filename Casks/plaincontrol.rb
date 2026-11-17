@@ -1,6 +1,6 @@
 cask "plaincontrol" do
-  version "0.7.0"
-  sha256 "becc612291903b266ecebf8adbff5c4c82ec1d7dde59f7384f3f614cfb19520a"
+  version "0.7.1"
+  sha256 "810d9a16c5a6af90dc3f1192bd1abe05c394b466e67f3b0f9c1b415376445132"
 
   url "https://github.com/MartijnMul/plaincontrol/releases/download/v#{version}/Plaincontrol.dmg"
   name "Plaincontrol"
